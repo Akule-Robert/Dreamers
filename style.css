@@ -1,0 +1,85 @@
+/* Basic styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    margin: 1em 0;
+  }
+  
+  p {
+    margin: 0.5em 0;
+  }
+  
+  a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  li {
+    margin: 0.5em 0;
+  }
+  
+  /* Header styles */
+  header {
+    background-color: #5e62b5;
+    padding: 1em;
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  nav {
+    text-align: center;
+  }
+  
+  nav li {
+    display: inline-block;
+    margin: 0 1em;
+  }
+  
+  /* Main content styles */
+  main {
+    padding: 2em;
+  }
+  main{
+    background-color: #d1dd93;
+    padding: 1em;
+  }
+  
+  section {
+    margin-bottom: 2em;
+  }
+  
+  h2 {
+    text-align: center;
+  }
+  
+  /* Footer styles */
+  footer {
+    text-align: center;
+    padding: 1em;
+    background-color: #8ea0df;
+  }
+
+  
+body.bg-image {
+  background-image: url('images\education.jpg'); /* Replace with your image path */
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+  
